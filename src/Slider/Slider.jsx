@@ -653,8 +653,8 @@ const Slider = class Slider extends React.Component {
 
     return (
       <div
-        deltaX={this.state.deltaX}
-        posX={trans}
+        deltax={this.state.deltaX}
+        posx={trans}
         ref={(el) => { this.sliderElement = el; }}
         className={sliderClasses}
         aria-live="polite"
