@@ -653,13 +653,13 @@ const Slider = class Slider extends React.Component {
 
     return (
       <div
+        deltaX={this.state.deltaX}
+        posX={trans}
         ref={(el) => { this.sliderElement = el; }}
         className={sliderClasses}
         aria-live="polite"
         aria-label={ariaLabel}
         style={sliderStyle}
-        deltaX={this.state.deltaX}
-        posX={trans}
         tabIndex={newTabIndex}
         onKeyDown={this.handleOnKeyDown}
         role="listbox"
