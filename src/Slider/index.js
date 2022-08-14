@@ -3,8 +3,8 @@ import WithStore from '../Store/WithStore';
 
 export default WithStore(Slider, state => ({
   currentSlide: state.currentSlide,
-  // deltax: state.deltax,
-  // pos: state.pos,
+  deltax: state.deltaX,
+  pos: state.posX,
   disableAnimation: state.disableAnimation,
   privateUnDisableAnimation: state.privateUnDisableAnimation,
   disableKeyboard: state.disableKeyboard,
