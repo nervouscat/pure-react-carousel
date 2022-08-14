@@ -3,6 +3,7 @@ import WithStore from '../Store/WithStore';
 
 export default WithStore(Slider, state => ({
   currentSlide: state.currentSlide,
+  deltax: state.deltax,
   disableAnimation: state.disableAnimation,
   privateUnDisableAnimation: state.privateUnDisableAnimation,
   disableKeyboard: state.disableKeyboard,
