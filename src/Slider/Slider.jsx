@@ -658,6 +658,7 @@ const Slider = class Slider extends React.Component {
         aria-live="polite"
         aria-label={ariaLabel}
         style={sliderStyle}
+        deltaX={deltaX}
         tabIndex={newTabIndex}
         onKeyDown={this.handleOnKeyDown}
         role="listbox"
